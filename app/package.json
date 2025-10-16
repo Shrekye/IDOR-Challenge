@@ -1,0 +1,21 @@
+{
+  "name": "idor-challenge",
+  "version": "1.0.0",
+  "description": "Challenge IDOR avec Node.js et Docker",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.6.5",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "cookie-parser": "^1.4.6",
+    "express-session": "^1.17.3",
+    "connect-mongo": "^5.1.0",
+    "ejs": "^3.1.9",
+    "nodemon": "^3.0.2"
+  }
+}
