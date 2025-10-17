@@ -4,7 +4,7 @@ services:
     build: .
     container_name: ctf_idor_web
     ports:
-      - "127.0.0.1:5000:5000"
+      - "5000:5000"
     volumes:
       - ./:/srv/ctf
     environment:
