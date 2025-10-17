@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  web:
+    build: .
+    container_name: ctf_idor_web
+    ports:
+      - "127.0.0.1:5000:5000"
+    volumes:
+      - ./:/srv/ctf
+    environment:
+      - FLASK_SECRET=change_this_secret_for_local_dev
+      - CTF_DB_PATH=/srv/ctf/ctf.db
+    restart: unless-stopped
