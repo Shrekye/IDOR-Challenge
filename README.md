@@ -1,5 +1,5 @@
 # IDOR-Challenge
-
+ ```bash
 ctf-idor/
 ├─ app.py
 ├─ seed_db.py
@@ -17,7 +17,7 @@ ctf-idor/
 │  └─ user.html
 └─ static/
    └─ style.css
-
+ ```
 
 http://localhost:5000
 
